@@ -112,3 +112,62 @@ footer {
   padding: 40px;
   text-align: center;
 }
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  .klik {
+    width: 80%;
+  }
+
+  section.about,
+  section.skill,
+  section.interaktif-demo {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .about h2,
+  .skill h2,
+  .interaktif-demo h2 {
+    font-size: 24px;
+  }
+
+  .about p,
+  .skill ul li {
+    font-size: 16px;
+  }
+  ul li{
+    margin-left: 10px;
+  }
+}
+ 
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  .klik {
+    width: 90%;
+  }
+
+  input[type="text"],
+  select {
+    padding: 6px;
+  }
+
+  button[type="button"] {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
