@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #3697da;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+section.about {
+  box-shadow: 0px 10px 15px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px 30px;
+  box-shadow: 0px 10px 15px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+}
+.about h2 {
+  color: #3697da;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.about p {
+  font-size: 18px;
+}
+
+section.skill {
+  box-shadow: 0px 10px 15px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px 30px;
+  box-shadow: 0px 10px 15px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+}
+.skill h2 {
+  color: #3697da;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.skill ul li {
+  font-size: 18px;
+}
+
+section.interaktif-demo {
+  box-shadow: 0px 10px 15px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 30px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.interaktif-demo h2 {
+  color: #3697da;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="button"] {
+  background-color: #33cc72;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button[type="button"]:hover {
+  background-color: #2dae62;
+}
+
+footer {
+  background-color: #3697da;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
